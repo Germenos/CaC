@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: orange;">
+        <nav>
+            <a style="background-color: chocolate;" href="index.html">Home</a>
+            <a style="background-color: chocolate;" href="about.html">Acerca de</a>
+            <a style="background-color: chocolate;" href="contact.html">Contacto</a>
+            <a style="background-color: chocolate;" href="registro.html">Registro</a>
+            <a style="background-color: chocolate;" href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1 style="text-align: center;">La cocina de Juan</h1>
+    </header>
+    <menu>
+        <h2>Formulario de Registro</h2>
+        <form action="show_data.html" target="_blank">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre aquí...">
+        <br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="Apellido" id="apellido" placeholder="Ingrese su apellido aquí:">
+        <br><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" name="Direccion" id="direccion" placeholder="Ingrese su dirección aquí...">
+        <br><br>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="Ciudad" id="ciudad" value="C.A.B.A.">
+        <br><br>
+        <label for="cp">Codigo Postal:</label>
+        <input type="number" name="Codigo_Postal" id="cp">
+        <br><br>
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" name="Fecha_de_Nacimiento" id="fecha">
+        <br>
+       <p>Sexo
+        <input type="radio" name="Sexo" id="sexo" value="M">Masculino
+        <input type="radio" name="Sexo" id="sexo" value="F">Femenino
+        </p>
+        <p>Estudios:
+            <input type="checkbox" name="Estudios" value = "Primarios">Primarios
+            <input type="checkbox" name="Estudios" value="Secundarios">Secundarios
+            <input type="checkbox" name="Estudios" value="Terciarios">Terciarios
+            <input type="checkbox" name="Estudios" value="Universitarios">Universitarios
+            <input type="checkbox" name="Estudios" value="Otro">Otro
+        </p>
+        <input type="submit" value="Enviar">
+        <p>Si usted hace click en el botón "Enviar", la informacións será enviada a la página "show_data.html".</p>
+    </form>
+    </menu>
+
+    <footer style="background-color: orange;">
+        <br>
+        <p style="text-align: center;">Derechos reservados @2020</p>
+        <br>
+    </footer>
+</body>
+</html>
